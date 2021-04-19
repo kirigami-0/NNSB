@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "color": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potion",
+          "nbt": "{tag:\"black_potion\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_main_system:003_nnsb_systems/color_attribute/color_system/add_system/5.color_black"
+  }
+}

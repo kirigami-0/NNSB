@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "nnsb_main_system:001_install/001_install",
+        "oh_my_dat:sys/load",
+        "score_to_health:load"
+    ]
+}

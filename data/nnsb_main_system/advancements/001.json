@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "item": "minecraft:paper",
+            "count": 1,
+            "nbt": "{CustomCraft:\"001\"}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/job_system/add_system/001"
+    }
+  }

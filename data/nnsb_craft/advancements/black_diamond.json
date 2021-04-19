@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nnsb_craft:metals/black_diamond"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_craft:material/black_diamond"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "color": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potion",
+          "nbt": "{tag:\"white_potion\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_main_system:003_nnsb_systems/color_attribute/color_system/add_system/6.color_white"
+  }
+}

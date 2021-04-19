@@ -1,0 +1,4 @@
+add_system内に入っているコマンド類は互いに背反していること。
+ 赤属性になった際は、他の属性を削除した後赤属性になるようにする。また、進捗は削除して使えるようにすること。
+
+ give @p potion{tag:"red_potion",display:{Name:'{"text":"レッドポーション","color":"red","bold":true,"underlined":true}',Lore:['[{"text":"澄んだ","color":"white"},{"text":"赤色","color":"red","bold":true}]','{"text":"飲むと属性を変えられる","color":"white"}']},Potion:"minecraft:water",CustomPotionColor:16711680,HideFlags:32} 1

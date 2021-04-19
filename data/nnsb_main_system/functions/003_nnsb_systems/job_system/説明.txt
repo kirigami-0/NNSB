@@ -1,0 +1,21 @@
+ジョブは村人との交易で変更する。
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "item": {
+            "item": "minecraft:paper",
+            "count": 1,
+            "nbt": "{CustomCraft:\"001\"}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/job_system/add_system/001"
+    }
+  }
+
+summon villager ~ ~ ~ {Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:0b,NoAI:1b,Willing:0b,CustomName:'{"text":"001","color":"white","bold":true,"underlined":true}',VillagerData:{level:99,profession:"minecraft:cartographer",type:"minecraft:desert"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,buy:{id:"minecraft:nether_star",Count:5b},sell:{id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,Enchantments:[{}],CustomCraft:"001"}}}]}}
+
+この2つが鍵となる。
