@@ -14,6 +14,17 @@
  
 ##記述完了
 
+##村人と取引用のカウンタを作成
+ scoreboard objectives add trade custom:traded_with_villager
+
+##記述完了
+
+
+
+
+
+
+
 ##ストレージを追加する
 data merge storage player {color:"ZERO",job:"ZERO",lv:0}
 

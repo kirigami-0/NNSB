@@ -6,6 +6,11 @@ scoreboard objectives remove color_math_1
 scoreboard objectives remove temp_1
 scoreboard objectives remove temp_2
 scoreboard objectives remove conversion
+scoreboard objectives remove OhMyDat
+scoreboard objectives remove OhMyDatID
+scoreboard objectives remove trade
+scoreboard objectives remove ScoreToHealth
+
 
 data remove storage color_attack {}
 data remove storage color_damage {}
