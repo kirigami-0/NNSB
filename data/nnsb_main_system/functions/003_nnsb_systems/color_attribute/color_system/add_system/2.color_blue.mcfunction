@@ -13,10 +13,6 @@ say hallo
 
 
  advancement revoke @s only nnsb_main_system:blue_potion
- 
-
-
-
 
 
 
