@@ -1,6 +1,6 @@
 ##属性を追加する。
-data merge storage player {color:"ZERO"}
-data merge storage player {color:"black"}
+data merge storage nnsb:player {color:"ZERO"}
+data merge storage nnsb:player {color:"black"}
 
 particle dust 0 0 0 2 ~ ~1.5 ~ 0.5 0.5 0.5 0.1 10 normal @a
 particle minecraft:enchant ~ ~1 ~ 1 1 1 0.1 10 normal @a

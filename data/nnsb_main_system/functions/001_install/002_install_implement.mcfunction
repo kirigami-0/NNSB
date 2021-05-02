@@ -1,13 +1,9 @@
 ##エンダーフレームにアイをはめたときの判定を作成する。
- scoreboard objectives add nnsb_clear used:ender_eye
+ scoreboard objectives add nnsb_clear used:ender_eye "攻略カウンター"
  scoreboard players set @a nnsb_clear 0
 
 ##記述完了
 
-##tickカウンターを作成する。
- scoreboard objectives add conversion dummy "チックカウンター"
-
-##完了
 
 ##MPを作成する。
  scoreboard objectives add nnsb_mp dummy "§2MP"
@@ -16,8 +12,15 @@
 
 
 ##ストレージを追加する
- data merge storage player {color:"ZERO",job:"ZERO",lv:0}
-
+ #プレイヤーデータ用ストレージ
+ data merge storage nnsb:player {color:"ZERO",job:"ZERO",lv:0,main_skill_1:0,main_skill_2:0,sub_skill_1:0,sub_skill_2:0}
+ 
+ #ゲーム進行用ストレージ
+ data merge storage nnsb:game_kp {fill_end_frame:0}
+ 
+ #MOB用ストレージ
+ data merge storage nnsb:mob {color:"zero",runk:0}
+ 
 ##記述完了
 
 

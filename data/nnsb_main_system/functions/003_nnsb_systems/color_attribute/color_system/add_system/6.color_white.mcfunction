@@ -1,7 +1,7 @@
 ##属性を追加する。
  #データの初期化
- data merge storage player {color:"ZERO"}
- data merge storage player {color:"white"}
+ data merge storage nnsb:player {color:"ZERO"}
+ data merge storage nnsb:player {color:"white"}
 
  #パーティクル
  particle dust 1 1 1 2 ~ ~1.5 ~ 0.5 0.5 0.5 0.1 10 normal @a
