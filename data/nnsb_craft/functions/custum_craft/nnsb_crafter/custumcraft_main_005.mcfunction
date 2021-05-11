@@ -1,4 +1,4 @@
-execute as @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:smithing_table"}}] at @s if block ~ ~-1 ~ minecraft:dropper[facing=up]{Items:[]} run function nnsb_craft:custum_craft/nnsb_crafter/custumcraft_main_001
+execute as @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:smithing_table"}}] at @s if block ~ ~-1 ~ minecraft:crafting_table run function nnsb_craft:custum_craft/nnsb_crafter/custumcraft_main_001
 
 execute at @e[tag=nnsb_crafter_success] run function nnsb_craft:custum_craft/nnsb_crafter/custumcraft_main_002
 

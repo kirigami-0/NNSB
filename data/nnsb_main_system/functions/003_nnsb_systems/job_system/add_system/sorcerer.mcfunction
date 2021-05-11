@@ -4,16 +4,13 @@
  
 ##記述完了
 
-particle minecraft:soul ~ ~1 ~ 1 1 1 0.0003 10 normal @a
 
+##チャット欄にテキスト表示
+ tellraw @s [{"text": "\n\n\n\n\n             ジョブをソーサラーに変更しました。\n\n\n\n","color": "aqua"}]
 
+##記述完了
 
+##トリガーを初期化
+ function nnsb_main_system:003_nnsb_systems/job_system/add_system/whole/job_decision
 
-
-
-
-
-
-
-function nnsb_main_system:003_nnsb_systems/job_system/add_system/whole/job_decision
-
+##記述完了

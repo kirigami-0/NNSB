@@ -4,20 +4,14 @@
  
 ##記述完了
 
-##パーティクル
- particle minecraft:explosion ~ ~1 ~ 1 1 1 0.0003 5 normal @a
+
+##チャット欄にテキスト表示
+ tellraw @s [{"text": "\n\n\n\n\n             ジョブをボマーに変更しました。\n\n\n\n","color": "aqua"}]
 
 ##記述完了
 
+##トリガーを初期化
+ function nnsb_main_system:003_nnsb_systems/job_system/add_system/whole/job_decision
 
+##記述完了
 
-
-
-
-
-
-
-
-
-
-function nnsb_main_system:003_nnsb_systems/job_system/add_system/whole/job_decision
