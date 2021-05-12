@@ -1,17 +1,29 @@
+#------------------------------あらゆるものを消去する------------------------------#
+
+ #-----ストレージ関連(消せると思ってる)-----#
+  data remove storage nnsb:player {}
+  data remove storage nnsb:mob {}
+  data remove storage nnsb:game_kp {}
+
+ #--------------------------------------# 
 
 
+ #-----アンイン完了メッセージ-----#
+   tellraw @s [{"text": "\n~~~~~~~~~~~~~~~","color": "aqua"},{"text": "\nアンインストール完了。\n","color": "white"},{"text": "  さようなら","color": "white"},{"text": "\n\n~~~~~~~~~~~~~~~","color": "aqua"}]
+
+ #------------------------------#
 
 
+ #-----インストール判定用のストレージを削除する-----#
+  data merge storage nnsb:nnsb_install {hanntei:folse}
+
+ #----------------------------------------------# 
 
 
+ #-----データパックを非アクティブにする-----#
+  datapack disable "file/NNSB"
+
+ #---------------------------------------# 
 
 
-data remove storage nnsb:player {}
-data remove storage nnsb:mob {}
-data remove storage nnsb:game_kp {}
-
-tellraw @s [{"text": "\n~~~~~~~~~~~~~~~","color": "aqua"},{"text": "\nアンインストール完了。\n","color": "white"},{"text": "  さようなら","color": "white"},{"text": "\n\n~~~~~~~~~~~~~~~","color": "aqua"}]
-
-data remove storage nnsb:nnsb_install imported
-
-datapack disable "file/NNSB"
+#-------------------------------------------------------------------------------#

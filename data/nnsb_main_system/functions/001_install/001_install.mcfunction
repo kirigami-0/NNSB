@@ -1,7 +1,4 @@
-#ストレージ内に『imported』がないとinstall_implementを実行する
+#-----ストレージ内に『imported』がないとinstall_implementを実行する-----#
+ execute unless data storage nnsb:nnsb_install {hanntei:true} run function nnsb_main_system:001_install/002_install_implement
 
-#判定コマンド
-execute unless data storage nnsb:nnsb_install imported_1 run function nnsb_main_system:001_install/002_install_implement
-
-#
-#
+#-------------------------------------------------------------------#
