@@ -18,12 +18,14 @@
  #-----ダメージ用スコアボード-----#
   scoreboard objectives add nnsb_attack custom:damage_dealt "与えたダメージ"
   scoreboard objectives add nnsb_damage custom:damage_taken "受けたダメージ"
+  scoreboard objectives add muth dummy
 
   scoreboard objectives add color_1.2 dummy
-  scoreboard players set @s color_1.2 20
+  scoreboard players set @s color_1.2 120
 
   scoreboard objectives add color_0.8 dummy
-  scoreboard players set @s color_0.8 -20
+  scoreboard players set @s color_0.8 80
+
 
   scoreboard objectives add color_main dummy
   scoreboard players set @s color_main 100
