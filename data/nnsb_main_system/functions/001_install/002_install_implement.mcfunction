@@ -18,17 +18,19 @@
  #-----ダメージ用スコアボード-----#
   scoreboard objectives add nnsb_attack custom:damage_dealt "与えたダメージ"
   scoreboard objectives add nnsb_damage custom:damage_taken "受けたダメージ"
-  scoreboard objectives add muth dummy
+  scoreboard objectives add muth dummy "計算用のスコア"
 
-  scoreboard objectives add color_1.2 dummy
+  scoreboard objectives add color_1.2 dummy "属性ダメージ1.2倍"
   scoreboard players set @s color_1.2 120
 
-  scoreboard objectives add color_0.8 dummy
+  scoreboard objectives add color_0.8 dummy "属性ダメージ0.8倍"
   scoreboard players set @s color_0.8 80
 
 
-  scoreboard objectives add color_main dummy
+  scoreboard objectives add color_main dummy "属性ダメージ1.0倍"
   scoreboard players set @s color_main 100
+
+  #ScoreToHealth 赤石愛さんのデータパック
 
  #------------------------------#
 
