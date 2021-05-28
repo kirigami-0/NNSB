@@ -1,0 +1,1 @@
+give @s potion{display:{Name:'{"text":"最速を求めて","color":"aqua"}',Lore:['{"text":"移動速度  +3","color":"blue"}']},HideFlags:127,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:60}],CustomPotionColor:7247103} 1

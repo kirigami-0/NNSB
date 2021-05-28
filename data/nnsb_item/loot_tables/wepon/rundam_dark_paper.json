@@ -1,0 +1,16 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 0,
+          "max": 30
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air"
+          }
+        ]
+      }
+    ]
+  }
