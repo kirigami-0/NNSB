@@ -1,4 +1,3 @@
-
 #Uninstall
 
 scoreboard objectives remove TotalXP
@@ -12,3 +11,4 @@ scoreboard objectives remove RemainXP_
 scoreboard objectives remove XPAmount
 scoreboard objectives remove XPAmount_
 tellraw @a [{"text":"[kyuri] ","color":"green"},{"text":"アンインストールしました","color":"red"}]
+

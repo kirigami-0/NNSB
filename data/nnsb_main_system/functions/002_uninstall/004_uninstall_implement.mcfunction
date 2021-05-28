@@ -1,29 +1,10 @@
-#------------------------------あらゆるものを消去する------------------------------#
+#あらゆるものを消去する
 
- #-----ストレージ関連(消せると思ってる)-----#
-  data remove storage nnsb:player {}
-  data remove storage nnsb:mob {}
-  data remove storage nnsb:game_kp {}
+#キュウリさんのレベルアップアンインファンクションに飛ぶ
+function nnsb_main_system:003_nnsb_systems/levels/uninstall
 
- #--------------------------------------# 
+#霧紙レイのアンインファンクションに飛ぶ
+function nnsb_main_system:002_uninstall/kirigami_remove_system
 
-
- #-----アンイン完了メッセージ-----#
-   tellraw @s [{"text": "\n~~~~~~~~~~~~~~~","color": "aqua"},{"text": "\nアンインストール完了。\n","color": "white"},{"text": "  さようなら","color": "white"},{"text": "\n\n~~~~~~~~~~~~~~~","color": "aqua"}]
-
- #------------------------------#
-
-
- #-----インストール判定用のストレージを削除する-----#
-  data merge storage nnsb:nnsb_install {hanntei:folse}
-
- #----------------------------------------------# 
-
-
- #-----データパックを非アクティブにする-----#
-  datapack disable "file/NNSB"
-
- #---------------------------------------# 
-
-
-#-------------------------------------------------------------------------------#
+#アンイン完了メッセージ
+tellraw @s [{"text": "\n~~~~~~~~~~~~~~~","color": "aqua"},{"text": "\nアンインストール完了。\n","color": "white"},{"text": "  さようなら","color": "white"},{"text": "\n\n~~~~~~~~~~~~~~~","color": "aqua"}]

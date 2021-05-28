@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:tripwire_hook",
-	"minecraft:tripwire",
+	　"minecraft:tripwire",
     "minecraft:air",
     "minecraft:cave_air",
     "minecraft:grass",
