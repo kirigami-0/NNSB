@@ -14,4 +14,5 @@ execute if score @s level_ matches 48 run scoreboard players remove @s RequiredX
 execute if score @s level_ matches 49 run scoreboard players add @s RequiredXP_ 1
 
 scoreboard players add @s level_ 1
-execute if score @s level_ <= @s level run function levels:main/required_operation_2
+execute if score @s level_ <= @s level run function nnsb_main_system:003_nnsb_systems/levels/main/required_operation_2
+

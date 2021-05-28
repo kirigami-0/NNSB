@@ -1,4 +1,3 @@
-
 #setup
 tellraw @a [{"text":"[kyuri] ","color":"green"}, {"text":"導入に成功しました。", "color":"yellow"}]
 
@@ -12,3 +11,4 @@ scoreboard objectives add RemainXP dummy
 scoreboard objectives add RemainXP_ dummy
 scoreboard objectives add XPAmount dummy
 scoreboard objectives add XPAmount_ dummy
+

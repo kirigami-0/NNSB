@@ -22,3 +22,4 @@ execute if score #meeting_time meeting_time matches 2001 run tellraw @a {"text":
 
 #スコアリセット
 execute if score #meeting_time meeting_time matches 1200 run scoreboard players set #meeting_time meeting_time 0
+
