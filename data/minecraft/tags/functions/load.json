@@ -1,8 +1,6 @@
 {
     "replace": false,
     "values": [
-        "nnsb_main_system:001_install/001_install",
-        "score_to_health:load",
-        "difficult:set_game"
+        "nnsb_main_system:003_nnsb_systems/load"
     ]
 }
