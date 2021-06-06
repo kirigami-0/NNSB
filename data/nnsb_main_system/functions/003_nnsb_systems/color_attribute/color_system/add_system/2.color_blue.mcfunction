@@ -1,8 +1,7 @@
 #----------------------------属性の設定----------------------------#
- #-----ストレージ書き換え-----#
-   data merge storage nnsb:player {color:"ZERO"}
-   data merge storage nnsb:player {color:"blue"}
-  
+ #-----Tag書き換え-----#
+ tag @s add blue
+
  #--------------------------#
  
 

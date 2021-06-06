@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"yellow\"]}"
+            },
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"red\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_damage/3_yellow/math_color/yellow_red"
+    }
+}
