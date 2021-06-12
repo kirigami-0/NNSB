@@ -4,7 +4,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:potion",
+          "items": "minecraft:potion",
           "nbt": "{tag:\"red_potion\"}"
         }
       }
