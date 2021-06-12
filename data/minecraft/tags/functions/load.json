@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "nnsb_main_system:003_nnsb_systems/load"
+        "nnsb_main_system:003_nnsb_systems/load",
+        "nnsb_item:load"
     ]
 }

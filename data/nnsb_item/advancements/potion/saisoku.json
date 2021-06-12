@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{display:{Name:'{\"text\":\"最速を求めて\",\"color\":\"aqua\"}'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_item:potion/item_effect/saisoku/saisoku"
+    }
+  }
