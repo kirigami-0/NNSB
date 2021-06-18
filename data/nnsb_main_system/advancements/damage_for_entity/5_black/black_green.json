@@ -1,20 +1,19 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:entity_hurt_player",
+        "trigger": "minecraft:player_hurt_entity",
         "conditions": {
           "player": {
             "nbt": "{Tags:[\"black\"]}"
             },
-          "damage": {
-            "source_entity": {
+            "entity": {
               "nbt": "{Tags:[\"green\"]}"
             }
-          }
+          
         }
       }
     },
     "rewards": {
-      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_damage/5_black/math_color/black_green"
+      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_attack/5_black/math_color/black_green"
     }
 }

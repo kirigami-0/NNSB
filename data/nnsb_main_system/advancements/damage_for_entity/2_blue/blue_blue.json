@@ -1,20 +1,19 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:entity_hurt_player",
+        "trigger": "minecraft:player_hurt_entity",
         "conditions": {
           "player": {
             "nbt": "{Tags:[\"blue\"]}"
             },
-          "damage": {
-            "source_entity": {
+            "entity": {
               "nbt": "{Tags:[\"blue\"]}"
             }
           }
-        }
+        
       }
     },
     "rewards": {
-      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_damage/2_blue/math_color/blue_blue"
+      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_attack/2_blue/math_color/blue_blue"
     }
 }
