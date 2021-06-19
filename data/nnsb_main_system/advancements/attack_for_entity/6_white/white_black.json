@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"white\"]}"
+            },
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"black\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/color_attribute/math/color_damage/6_white/math_color/white_black"
+    }
+}

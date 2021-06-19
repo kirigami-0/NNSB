@@ -1,0 +1,1 @@
+give @s potion{display:{Name:'{"text":"モンエナ","color":"green"}',Lore:['{"text":"例の青いやつ"}']},CustomPotionEffects:[{Id:1b,Amplifier:10b,Duration:200},{Id:9b,Amplifier:30b,Duration:400},{Id:11b,Amplifier:3b,Duration:200},{Id:22b,Amplifier:3b,Duration:200}],CustomPotionColor:1559562} 1

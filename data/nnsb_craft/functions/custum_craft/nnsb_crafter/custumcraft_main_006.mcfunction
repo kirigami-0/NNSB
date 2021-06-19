@@ -1,0 +1,1 @@
+kill @e[type=item,nbt={Age:0s,Item:{id:"minacraft:dropper",Count:1b}}]
