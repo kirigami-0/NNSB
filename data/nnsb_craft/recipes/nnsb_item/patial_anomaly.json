@@ -1,21 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  #",
-        " / ",
-        "/  "
+        " # ",
+        "#C#",
+        " # "
     ],
     "key": {
         "#": {
-            "item": "minecraft:acacia_planks"
+            "item": "minecraft:amethyst_shard"
         },
-        "/": {
-            "item": "minecraft:stick"
+        "C": {
+            "item": "minecraft:clock"
         }
     },
     "result": {
         "item": "minecraft:chest",
         "count": 1
     },
-    "group": "nnsb_tool"
+    "group": "Intermediate material"
 }

@@ -3,7 +3,7 @@
       "unlock": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "nnsb_craft:metals/steel"
+          "recipe": "nnsb_craft:nnsb_item/steel"
         }
       }
     },

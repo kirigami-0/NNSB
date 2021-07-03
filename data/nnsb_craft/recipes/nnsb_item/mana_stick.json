@@ -1,13 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  #",
-        " / ",
-        "/  "
+        "#/#"
     ],
     "key": {
         "#": {
-            "item": "minecraft:oak_planks"
+            "item": "minecraft:blaze_powder"
         },
         "/": {
             "item": "minecraft:stick"
@@ -17,5 +15,5 @@
         "item": "minecraft:chest",
         "count": 1
     },
-    "group": "nnsb_tool"
+    "group": "Intermediate material"
 }

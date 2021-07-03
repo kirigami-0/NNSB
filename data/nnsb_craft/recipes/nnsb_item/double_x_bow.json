@@ -1,13 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  #",
-        " / ",
-        "/  "
+        " #C",
+        "#//",
+        " #C"
     ],
     "key": {
         "#": {
-            "item": "minecraft:warped_planks"
+            "item": "minecraft:string"
+        },
+        "C": {
+            "item": "minecraft:crossbow"
         },
         "/": {
             "item": "minecraft:stick"
@@ -17,5 +20,5 @@
         "item": "minecraft:chest",
         "count": 1
     },
-    "group": "nnsb_tool"
+    "group": "Intermediate material"
 }

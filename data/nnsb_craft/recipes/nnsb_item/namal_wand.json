@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  i",
+        " / ",
+        "/  "
+    ],
+    "key": {
+        "i": [
+            {"item": "minecraft:iron_ingot"},
+            {"item": "minecraft:amethyst_shard"},
+            {"item": "minecraft:diamond"},
+            {"item": "minecraft:gold_ingot"},
+            {"item": "minecraft:copper_ingot"},
+            {"item": "minecraft:netherite_ingot"}
+    ],
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:chest",
+        "count": 1
+    },
+    "group": "Intermediate material"
+}

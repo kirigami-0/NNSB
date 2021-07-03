@@ -3,7 +3,7 @@
       "unlock": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "nnsb_craft:metals/black_diamond"
+          "recipe": "nnsb_craft:nnsb_item/black_diamond"
         }
       }
     },

@@ -3,7 +3,7 @@
       "unlock": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "nnsb_craft:tools/practice_wand_5"
+          "recipe": "nnsb_craft:nnsb_item/practice_wand"
         }
       }
     },
