@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nnsb_craft:nnsb_item"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_craft:"
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nnsb_craft:nnsb_item/double_x_bow"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_craft:"
+    }
+  }
