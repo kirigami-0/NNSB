@@ -3,11 +3,11 @@
       "unlock": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "nnsb_craft:tools/practice_wand_1"
+          "recipe": "nnsb_craft:nnsb_item/mana_string"
         }
       }
     },
     "rewards": {
-      "function": "nnsb_craft:material/wand"
+      "function": "nnsb_craft:"
     }
   }

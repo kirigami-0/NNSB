@@ -3,11 +3,11 @@
       "unlock": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "nnsb_craft:tools/practice_wand_4"
+          "recipe": "nnsb_craft:nnsb_item/double_x_bow"
         }
       }
     },
     "rewards": {
-      "function": "nnsb_craft:material/wand"
+      "function": "nnsb_craft:"
     }
   }
