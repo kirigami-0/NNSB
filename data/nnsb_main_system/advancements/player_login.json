@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/statas/player_id_get"
+    }
+  }
+  
