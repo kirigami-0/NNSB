@@ -2,6 +2,7 @@
 
 #MP用スコアボード
 scoreboard objectives add nnsb_now_mp dummy "§2MP"
+scoreboard objectives add nnsb_max_mp dummy "MPの上限"
 scoreboard objectives add nnsb_next_mp dummy "次のレベルアップで獲得するMP"
 
 #ダメージ用スコアボード

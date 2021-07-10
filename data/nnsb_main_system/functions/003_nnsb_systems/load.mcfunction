@@ -1,2 +1,3 @@
 function nnsb_main_system:001_install/001_install
 function nnsb_main_system:003_nnsb_systems/difficult/set_game
+function nnsb_main_system:003_nnsb_systems/statas/load
