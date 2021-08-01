@@ -1,0 +1,3 @@
+execute at @s as @s anchored eyes run summon egg ^0.177875 ^1.44 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,Item:{id:"minecraft:stone",Count:1b,tag:{CustomModelData:0}},Tags:["STR","statas_plate"]}
+execute at @s as @s anchored eyes run summon egg ^0.177875 ^1.1705 ^ {NoGravity:1b,Silent:1b,Invulnerable:1b,Item:{id:"minecraft:stone",Count:1b,tag:{CustomModelData:0}},Tags:["LIFE","statas_plate"]}
+execute at @s as @s anchored eyes run summon armor_stand ^0.177875 ^1.025 ^ {Tags:["statas_plate","R_R"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ShowArms:1b,ArmorItems:[{},{},{},{}],HandItems:[{id: "minecraft:stone" ,Count:1b,tag:{CustomTags:R_R_PutSwit,CustomModelData:0}},{id: "minecraft:stone" ,Count:1b,tag:{CustomTags:R_R_PutSwit,CustomModelData:0}}],DisabledSlots:4144702}

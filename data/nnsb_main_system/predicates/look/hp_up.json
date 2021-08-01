@@ -8,7 +8,7 @@
     "player": {
       "looking_at": {
         "type": "minecraft:egg",
-        "nbt": "{Tags:[\"STR\",\"statas_plate\"]}"
+        "nbt": "{Tags:[\"LIFE\",\"statas_plate\"]}"
       }
     }
   }
