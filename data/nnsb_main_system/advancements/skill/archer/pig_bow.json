@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {},
+          "item": {
+            "items": [
+              "minecraft:bow"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/skill/archer/count_score"
+    }
+}

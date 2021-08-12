@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "player": {
+            "player": {
+              "advancements": {
+                "nnsb_main_system:jobs/archer": true
+              }
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:bow"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/skill/archer/give_tag"
+    }
+  }

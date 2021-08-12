@@ -1,0 +1,2 @@
+#選択テキストからのスコア設定
+tellraw @s [{"text":"ストームショットをどのスロットに装備しますか "},{"text":"<Slot1>","clickEvent": {"action":"run_command","value":"/scoreboard players set @s SLOT_1 4"}},{"text":" "},{"text":"<Slot2>","clickEvent": {"action":"run_command","value":"/scoreboard players set @s SLOT_2 4"}}]

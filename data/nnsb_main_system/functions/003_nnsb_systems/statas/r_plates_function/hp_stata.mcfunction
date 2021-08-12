@@ -1,3 +1,4 @@
+#hpを0から1oの値に変換しその数に一定の数を足してCMDに代入(ごり押しですが何か)
 execute store result score @e[limit=1,distance=..0.1,tag=r_plate] STATAS_HP run data get entity @s Health
 execute store result score @e[limit=1,distance=..0.1,tag=r_plate] muth run attribute @s generic.max_health get 0.1
 execute as @e[limit=1,distance=..0.1,tag=r_plate] run scoreboard players operation @s STATAS_HP /= @s muth
