@@ -7,6 +7,7 @@ scoreboard objectives add SLOT_2 dummy
 scoreboard objectives add have_Skill dummy
 scoreboard objectives add bow_pig dummy
 scoreboard objectives add now_pig dummy
+scoreboard objectives add bullet_life dummy
 
 #動き検知実績と組み合わせると軽いんだぜ
 scoreboard objectives add Walk minecraft.custom:walk_one_cm

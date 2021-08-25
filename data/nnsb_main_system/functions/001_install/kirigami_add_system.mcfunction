@@ -22,6 +22,10 @@ scoreboard players set @s color_0.8 80
 scoreboard objectives add color_main dummy "属性ダメージ1.0倍"
 scoreboard players set @s color_main 100
 
+#属性を保存するスコアボード
+scoreboard objectives add color_type dummy "属性パターン"
+scoreboard players set @s color_type 1
+
 #ScoreToHealth 赤石愛さんのデータパック
 
 #攻略用スコアボード

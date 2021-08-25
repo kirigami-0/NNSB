@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "atta": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "type": {
+              "is_projectile": true,
+              "direct_entity": {
+                "nbt": "{Tags:[\"SEIMITU\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/skill/archer/skills/seimitu/seimitu"
+    }
+  }

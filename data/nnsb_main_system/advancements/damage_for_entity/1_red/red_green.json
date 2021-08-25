@@ -3,12 +3,24 @@
       "requirement": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
-          "player": {
-            "nbt": "{Tags:[\"red\"]}"
-            },
-            "entity": {
-              "nbt": "{Tags:[\"green\"]}"
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "color_type": 1
+              }
             }
+          ],
+            "entity": [
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "color_type": 4
+                }
+              }
+            ]
           }
         
       }
