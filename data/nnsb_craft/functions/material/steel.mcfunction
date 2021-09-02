@@ -13,7 +13,7 @@ give @s minecraft:brick{display:{Name:'{"text": "鋼","color": "white"}',Lore:['
 
 
 #レシピリセット
-recipe take @s nnsb_craft:metals/steel
+recipe take @s nnsb_craft:nnsb_item/steel
 
 #進捗リセット
 advancement revoke @s only nnsb_craft:steel
