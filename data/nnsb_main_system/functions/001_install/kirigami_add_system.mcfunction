@@ -9,6 +9,7 @@ scoreboard objectives add nnsb_next_mp dummy "次のレベルアップで獲得�
 scoreboard objectives add nnsb_attack custom:damage_dealt "与えたダメージ"
 scoreboard objectives add nnsb_damage custom:damage_taken "受けたダメージ"
 scoreboard objectives add muth dummy "計算用のスコア"
+scoreboard objectives add muthealth dummy "計算用のスコア"
 
 #属性ダメージ1.2倍
 scoreboard objectives add color_1.2 dummy "属性ダメージ1.2倍"
