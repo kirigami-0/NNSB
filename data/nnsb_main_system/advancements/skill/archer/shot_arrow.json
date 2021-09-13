@@ -19,6 +19,6 @@
       }
     },
     "rewards": {
-      "function": "nnsb_main_system:003_nnsb_systems/skill/archer/give_tag"
+      "function": "nnsb_main_system:003_nnsb_systems/skill/archer/give_flag"
     }
   }

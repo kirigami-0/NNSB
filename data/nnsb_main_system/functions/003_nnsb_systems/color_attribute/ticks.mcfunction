@@ -1,1 +1,0 @@
-execute as @e[tag=inv,nbt={HurtTime:0s}] run tag @s remove inv
