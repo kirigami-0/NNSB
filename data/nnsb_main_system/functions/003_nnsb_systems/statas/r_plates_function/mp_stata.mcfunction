@@ -1,3 +1,4 @@
+#HPと全く同じだからそっち見てくれ
 execute store result score @e[limit=1,distance=..0.1,tag=r_plate] nnsb_now_mp run scoreboard players get @s nnsb_now_mp
 execute store result score @e[limit=1,distance=..0.1,tag=r_plate] nnsb_max_mp run scoreboard players get @s nnsb_max_mp
 execute as @e[limit=1,distance=..0.1,tag=r_plate] run scoreboard players set @s nnsb_next_mp 10

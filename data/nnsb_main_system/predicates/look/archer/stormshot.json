@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sneaking": true
+    },
+    "player": {
+      "looking_at": {
+        "type": "minecraft:silverfish",
+        "nbt": "{Tags:[\"stormshot\",\"statas_plate\"]}"
+      }
+    }
+  }
+}

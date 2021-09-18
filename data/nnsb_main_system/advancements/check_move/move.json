@@ -1,0 +1,182 @@
+{
+    "criteria": {
+      "sneek_walk": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sneek_cm": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "ladder_up": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "radder": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "flying": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "flying": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "fall": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "falling": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "elytr": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eri_cm": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "dash": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "running": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "swim_down": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "swim_dawn": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "swim": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "swim": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "walk_water": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "water_walk": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      "walk": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "Walk": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "sneek_walk",
+        "ladder_up",
+        "flying",
+        "fall",
+        "elytr",
+        "dash",
+        "swim_down",
+        "swim",
+        "walk_water",
+        "walk"
+      ]
+    ],
+    "rewards": {
+      "function": "nnsb_main_system:003_nnsb_systems/statas/out/sneak"
+    }
+  }
+  

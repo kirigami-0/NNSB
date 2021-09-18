@@ -6,9 +6,10 @@
           "player": {
             "nbt": "{Tags:[\"red\"]}"
             },
-            "entity": {
+          "damage": {
+            "source_entity": {
               "nbt": "{Tags:[\"white\"]}"
-            
+            }
           }
         }
       }

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ],
+            "nbt": "{CustomTags:arc_PutSwit}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_main_system:003_nnsb_systems/statas/button/arc_swi"
+  }
+}

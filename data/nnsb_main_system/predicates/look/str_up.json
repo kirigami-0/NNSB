@@ -1,12 +1,15 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "player": {
-        "looking_at": {
-          "type": "minecraft:silverfish"
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sneaking": true
+    },
+    "player": {
+      "looking_at": {
+        "type": "minecraft:egg",
+        "nbt": "{Tags:[\"STR\",\"statas_plate\"]}"
       }
     }
   }
-  
+}
