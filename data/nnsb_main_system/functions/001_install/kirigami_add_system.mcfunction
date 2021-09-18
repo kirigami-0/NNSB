@@ -1,3 +1,7 @@
+#ゲームルール設定
+gamerule sendCommandFeedback false
+#
+
 #スコアボード関連
 
 #MP用スコアボード

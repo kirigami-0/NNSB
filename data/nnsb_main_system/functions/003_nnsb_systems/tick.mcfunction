@@ -1,3 +1,3 @@
-function nnsb_main_system:003_nnsb_systems/difficult/tick
+
 function nnsb_main_system:003_nnsb_systems/statas/tick
 function nnsb_main_system:003_nnsb_systems/color_attribute/ticks
