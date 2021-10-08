@@ -9,7 +9,7 @@ scoreboard objectives add bow_pig dummy
 scoreboard objectives add now_pig dummy
 scoreboard objectives add bullet_life dummy
 
-#動き検知実績と組み合わせると軽いんだぜ
+#動き検知
 scoreboard objectives add Walk minecraft.custom:walk_one_cm
 scoreboard objectives add water_walk minecraft.custom:walk_on_water_one_cm
 scoreboard objectives add swim minecraft.custom:swim_one_cm

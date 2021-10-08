@@ -9,3 +9,16 @@ tp @e[tag=r_plate,tag=need_fstas,limit=1,sort=nearest] ^-1.3 ^0.7 ^2
 execute anchored feet positioned ^1.3 ^0.7 ^2 as @e[tag=l_plate,tag=need_fstas,limit=1,sort=nearest] at @s run function nnsb_main_system:003_nnsb_systems/statas/setup_plate/left
 execute anchored feet positioned ^-1.3 ^0.7 ^2 as @e[tag=r_plate,tag=need_fstas,limit=1,sort=nearest] at @s run function nnsb_main_system:003_nnsb_systems/statas/setup_plate/right
 tag @e[tag=need_fstas,limit=2,sort=nearest] remove need_fstas
+#スコアのリセットバグ回避に他のスコアと進捗も
+advancement revoke @s only nnsb_main_system:check_move/move
+scoreboard players set @s sneek_cm 0
+scoreboard players set @s running 0
+scoreboard players set @s eri_cm 0
+scoreboard players set @s falling 0
+scoreboard players set @s flying 0
+scoreboard players set @s radder 0
+scoreboard players set @s swim_dawn 0
+scoreboard players set @s swim 0
+scoreboard players set @s water_walk 0
+scoreboard players set @s Walk 0
+scoreboard players set @s stop 0
