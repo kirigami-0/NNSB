@@ -176,7 +176,7 @@
       ]
     ],
     "rewards": {
-      "function": "nnsb_main_system:003_nnsb_systems/statas/out/sneak"
+      "function": "nnsb_main_system:003_nnsb_systems/statas/out/move"
     }
   }
   

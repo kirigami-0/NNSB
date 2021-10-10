@@ -1,0 +1,16 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bow"
+      },
+      "title": "ストームアロー",
+      "description": "敵に当てると真上に上昇する。 \n上昇中は継続ダメージを与える \n弓のチャージ時間で上昇力が変化する",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
