@@ -1,0 +1,1 @@
+execute as @s[advancements={nnsb_main_system:jobs/archer}] run function nnsb_main_system:003_nnsb_systems/skill/levelup/level_30/archer

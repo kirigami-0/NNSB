@@ -1,10 +1,11 @@
 {
+  "parent": "nnsb_main_system:have_skill/archer/storm_arrow",
     "display": {
       "icon": {
         "item": "minecraft:bow"
       },
-      "title": "ストームアロー",
-      "description": "敵に当てると真上に上昇する。 \n上昇中は継続ダメージを与える \n弓のチャージ時間で上昇力が変化する",
+      "title": "爆矢",
+      "description": "敵に当てると爆発する\n爆発自体に威力は無い\n敵の装備を破壊することがある。",
       "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
     },
     "criteria": {
