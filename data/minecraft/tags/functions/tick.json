@@ -3,6 +3,7 @@
     "values": [
         "nnsb_craft:tick",
         "nnsb_main_system:003_nnsb_systems/tick",
-        "nnsb_item:tick"
+        "nnsb_item:tick",
+        "nnsb_skill:bomber/main/tick"
     ]
 }
