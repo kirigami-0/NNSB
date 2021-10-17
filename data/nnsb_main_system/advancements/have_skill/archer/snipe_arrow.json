@@ -1,0 +1,16 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bow"
+      },
+      "title": "スナイプアロー",
+      "description": "とても遠くまで狙撃出来るようになる。\n視点もズームされ、矢の飛距離は5倍に跳ね上がり、\n威力はレベル1で1.5倍レベル3で5倍になる。\nそのかわり、狙いをつける間と矢を放った後一秒は動けない",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

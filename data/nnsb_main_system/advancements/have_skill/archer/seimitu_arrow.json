@@ -1,0 +1,17 @@
+{
+  "parent": "nnsb_main_system:have_skill/archer/bom_arrow",
+    "display": {
+      "icon": {
+        "item": "minecraft:bow"
+      },
+      "title": "精密射撃",
+      "description": "弓を構えている時15m以内の敵の方向が表示される。\n敵の方向に向かって照準を定め、矢を放った時、\nその矢は壁を貫通する即着弾の矢にかわり、\n当たった敵に18ダメージを与える",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
