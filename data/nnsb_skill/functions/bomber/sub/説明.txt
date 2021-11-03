@@ -1,1 +1,2 @@
 mainの参照元なので消す際には依存関係を考えて消してください。
+execute as @a[scores={nnsb_u_snowball=1..},sort=nearest,limit=1] run effect give @s minecraft:resistance 2 255 true
