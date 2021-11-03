@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:villager",
+		"minecraft:item",
+		"minecraft:wandering_trader",
+		"minecraft:armor_stand",
+		"minecraft:player"
+	]
+}
