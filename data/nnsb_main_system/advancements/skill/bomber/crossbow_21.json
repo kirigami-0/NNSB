@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": ""
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:brick_stairs"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "nbt": "{ChargedProjectiles:[{id:\"firework_rocket\"}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "nnsb_skill:bomber/main/rewards/crossbow_21"
+    }
+}
