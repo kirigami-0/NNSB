@@ -4,6 +4,11 @@ gamerule sendCommandFeedback false
 
 #スコアボード関連
 
+#システム判定用スコアボード
+scoreboard objectives add nnsb_shift minecraft.custom:minecraft.sneak_time
+scoreboard objectives add nnsb_rodclick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add nnsb_u_snowball minecraft.used:minecraft.snowball
+scoreboard objectives add nnsb_d_gunpo minecraft.dropped:minecraft.gunpowder
 #MP用スコアボード
 scoreboard objectives add nnsb_now_mp dummy "§2MP"
 scoreboard objectives add nnsb_max_mp dummy "MPの上限"
@@ -12,8 +17,8 @@ scoreboard objectives add nnsb_next_mp dummy "次のレベルアップで獲得�
 #ダメージ用スコアボード
 scoreboard objectives add nnsb_attack custom:damage_dealt "与えたダメージ"
 scoreboard objectives add nnsb_damage custom:damage_taken "受けたダメージ"
-scoreboard objectives add muth dummy "計算用のスコア"
-scoreboard objectives add muthealth dummy "計算用のスコア"
+scoreboard objectives add math dummy "計算用のスコア"
+scoreboard objectives add mathealth dummy "計算用のスコア"
 
 #属性ダメージ1.2倍
 scoreboard objectives add color_1.2 dummy "属性ダメージ1.2倍"
@@ -32,6 +37,7 @@ scoreboard objectives add color_type dummy "属性パターン"
 scoreboard players set @s color_type 1
 
 #ScoreToHealth 赤石愛さんのデータパック
+scoreboard objectives add ScoreToHealth dummy "体力"
 
 #攻略用スコアボード
 scoreboard objectives add nnsb_clear used:ender_eye "攻略カウンター"

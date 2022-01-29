@@ -21,9 +21,13 @@
  #スコアボードには必ずどのジョブかわかるようにしましょう
  #ここの接頭辞は 【bo】 です
 
+scoreboard objectives add bo_mob_hp dummy
+scoreboard objectives add bo_count_nopl dummy
+scoreboard objectives add bo_hp_minus dummy
+scoreboard objectives add bo_hp dummy
+scoreboard objectives add bo_okedit_int dummy
 
- scoreboard objectives add bo_snowball used:snowball "手投げ爆弾"
- scoreboard players set @s bo_snowball 0
+data merge storage nnsb:skill_bomber {player_minus:2}
 
 #--------------------------------#
 
